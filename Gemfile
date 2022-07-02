@@ -11,6 +11,10 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+# use Fontawesome-sass
+gem 'font-awesome-sass', '~> 5.15.1'
+# use simple form
+gem 'simple_form', github: 'heartcombo/simple_form'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

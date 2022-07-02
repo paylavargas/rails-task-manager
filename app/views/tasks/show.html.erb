@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="text-center my-5"><%= @task.title %></h1>
+  <p><%= @task.details %></p>
+
+  <% if @task.completed == false %>
+    <div class="alert alert-danger" role="alert">
+      You need to do this!
+    </div>
+  <% else  %>
+    <div class="alert alert-success" role="alert">
+      Done!
+    </div>
+  <% end %>
+  <br>
+
+  <%= link_to 'Edit this task', edit_task_path(@task)%>
+  <%= link_to 'Back to My Tasks', tasks_path %>
+</div>
